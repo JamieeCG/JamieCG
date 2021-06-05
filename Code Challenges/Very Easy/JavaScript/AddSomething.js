@@ -1,3 +1,4 @@
+// This will add " something" to the end of an entry given.
 function addsomethingafter(a) {
   // This will check if any entry is given at all. If not it will return with the specified error.
   if (typeof a === "undefined") throw new SyntaxError("You must give at least one word to add \"something\" to the end of.")
